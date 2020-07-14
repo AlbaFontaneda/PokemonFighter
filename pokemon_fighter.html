@@ -1,0 +1,184 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokemon Fighter</title>
+    <link rel="shortcut icon" href="img/logos/icono_pagina.png"> 
+    <link rel="stylesheet" href="css/clases.css" type="text/css">
+    <link rel="stylesheet" href="css/interfaz.css" type="text/css">
+    <link rel="stylesheet" href="css/inicio.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/tutorial.css" type="text/css">
+    <link rel="stylesheet" href="css/seleccion.css" type="text/css">
+    <link rel="stylesheet" href="css/combate.css" type="text/css">
+    <script type="text/javascript" src="js/eventos.js"></script>
+  </head>
+
+  <body>
+    <!------INICIO------->
+    <div id="inicio">
+      <div id=titulo><img id="imagenTitulo" src="img/logos/Logo_PokemonFigther.png"></img></div>
+      <div id="videoppal">
+        <video id=video_introduccion src=media/videos/Opening.mp4 type='video/mp4' poster="img/fondos/mewtwo.jpg" controls></video>
+        <button id="bmenu">Menú</button>
+      </div>
+    </div>
+    
+    <!-----MENU--------->
+    <div id="menu">
+      <audio id="musica_menu" src="media/musica/menu.mp3" loop></audio>
+      <div id=titulo><img id="imagenTitulo" src="img/logos/Logo_PokemonFigther.png"></img></div>
+      <button id="bJugar">Jugar</button>
+      <button id="bTutorial">Tutorial</button>
+      <button id="bSalir">Salir</button>
+    </div>
+    
+    <!---TUTORIAL----->
+    <div id="tutorial">
+      <img id="logo" src="img/logos/Logo_PokemonFigther.png"></img>
+      <div class="contenedor_escenario" id="presentacion">
+        <div id="ilustracion">
+          <canvas id="canvas_explicacion"></canvas>
+        </div>
+        <div id="explicacion">
+          <p id=texto_explicacion></p>
+        </div>
+        <img id="oak" src="img/tutorial/profesor_oak.png"></img>
+        <button class="flechas" id="flecha">▼</button>
+      </div>
+    </div>
+    
+    <!---SELECCION----->
+    <div id="seleccion">
+        <img id="logo" src="img/logos/Logo_PokemonFigther.png"></img>
+      
+        <img id="eleccion" src="img/logos/ElegirPokemon.png"></img>
+        <button id="blisto">Listo</button>
+        <div id="pokeballs">
+          <table>
+            <tr>
+              <td><div><img class="pokeball" id="pokeball1" src="img/logos/pokeball_abierta.png"></img></td></div>
+              <td><div><img class="pokeball" id="pokeball2" src="img/logos/pokeball_abierta.png"></img></td></div>
+              <td><div><img class="pokeball" id="pokeball3" src="img/logos/pokeball_abierta.png"></img></td></div>
+            </tr>
+            <tr>
+              <td><div id="nombrepok1"></div></td>
+              <td><div id="nombrepok2"></div></td>
+              <td><div id="nombrepok3"></div></td>
+            </tr>
+          </table>
+        </div>
+      
+      <div id="contenedor_pokemon">
+        <table>
+          <tr>
+            <td><button class="pokemon" id="acero">Aggron</button></td>
+            <td><button class="pokemon" id="agua">Blastoise</button></td>
+            <td><button class="pokemon" id="bicho">Combee</button></td>
+          </tr>
+          <tr>
+            <td><button class="pokemon" id="dragon">Salamence</button></td>
+            <td><button class="pokemon" id="electrico">Pikachu</button></td>
+            <td><button class="pokemon" id="fantasma">Gengar</button></td>
+          </tr>
+          <tr>
+            <td><button class="pokemon" id="fuego">Charizard</button></td>
+            <td><button class="pokemon" id="hada">Jigglypuff</button></td>
+            <td><button class="pokemon" id="hielo">Glaceon</button></td>
+          </tr>
+          <tr>
+            <td><button class="pokemon" id="lucha">Hitmontop</button></td>
+            <td><button class="pokemon" id="normal">Lickitung</button></td>
+            <td><button class="pokemon" id="planta">Bulbasaur</button></td>
+          </tr>
+          <tr>
+            <td><button class="pokemon" id="psiquico">Mr.Mime</button></td>
+            <td><button class="pokemon" id="roca">Aerodactyl</button></td>
+            <td><button class="pokemon" id="siniestro">Zoroark</button></td>
+          </tr>
+          <tr>
+            <td><button class="pokemon" id="tierra">Garchomp</button></td>
+            <td><button class="pokemon" id="veneno">Amoonguss</button></td>
+            <td><button class="pokemon" id="volador">Pidgeot</button></td>
+          </tr>
+        </table>
+      </div>
+      <div id="errores_de_seleccion"><p id="texto_error"></p></p></div>
+    </div>
+    
+    <!----COMBATE------->
+    <div id="combate">
+      <audio id="musica_combate" src="media/musica/combate.mp3" loop></audio>
+  
+      <audio id="grito" src=""></audio>
+      
+      <img id="logo" src="img/logos/Logo_PokemonFigther.png"></img>
+      
+      <div class="contenedor_escenario" id="escenario">
+        <div id="vida">
+          <canvas id="vida_actual"></canvas>
+          <canvas id="vidamaq"></canvas>
+          <canvas id="num_actual"></canvas>
+          <canvas id="num_maq"></canvas>
+          <img src="img/logos/pokeball.png" id="miniatura_pokeball"></img>
+        </div>
+        <div id="pelea">
+          <div id="contenedor_pokemon1"><img class="pokemongif" id="pokemon1"></img></div>
+          <div id="contenedor_pokemon2"><img class="pokemongif" id="pokemon2"></img></div>
+        </div>
+      </div>
+      
+      <div class="contenedor_escenario" id="equipo">
+        <table id="tabla_cambio">
+          <tr>
+            <td><button class="pokemon" id="primero">random</button></td>
+            <td><button class="pokemon" id="segundo">random</button></td>
+          </tr>
+          
+          <tr>
+            <td><button class="pokemon" id="tercero">random</button></td>
+            <td><button class="bdefecto" id="volver">Volver</button></td>
+          </tr>
+        </table>
+        <div><img id="cambiar_equipo" src="img/logos/cambiar_equipo.png"></img></div>
+      </div>
+      
+      <div class="contenedor_escenario" id="winner">
+        <video id=conga src=media/videos/winner.mp4 type='video/mp4' stop loop></video>
+        <audio id="musica_loser" src="media/musica/loser.mp3" loop></audio>
+        <img src="media/videos/loser.gif" id="loser"></img>
+        
+        <div id="halldefama">
+          <div id="contenedor_winer1"><img class = "pokemongif" id="hall1"></img></div>
+          <div id="contenedor_winer2"><img class = "pokemongif" id="hall2"></img></div>
+          <div id="contenedor_winer3"><img class = "pokemongif" id="hall3"></img></div>
+        </div>
+      </div>
+      
+      <div id="layout">
+        <div id="miniatura"><img id="miniature" src="img/roca/Aerodactyl_miniatura.png"></img></div>
+        <div id="subcuadro">
+          <table id="tabla_ppal">
+            <tr>
+              <td><button class="bdefecto" id="batacar">Atacar</button></td>
+              <td><button class="bdefecto" id="bcambiar">Cambiar</button></td>
+            </tr>
+          </table>
+          <table id="tabla_ataques">
+            <tr>
+              <td><button class="bdefecto" id="ataq1"></button></td>
+              <td><button class="bdefecto" id="ataq2"></button></td>
+            </tr>
+          </table>
+          <p id="texto"></p>
+        </div>
+        <button class="flechas" id="flecha2">▼</button>
+      </div>
+      <button class="bdefecto" id="volver_juego">Volver al inicio</button>
+    </div>
+    
+  </body>
+  
+  <footer>Todos los derechos reservados para Alba Fontaneda y Javier Gutiérrez ©
+  </footer>
+
+</html>

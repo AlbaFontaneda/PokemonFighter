@@ -1,0 +1,77 @@
+/*....................INICIO.....................*/
+#inicio{
+  display: block;
+  position: absolute;
+  width: 1920px;
+  height: 955px;
+  background-image: url("../img/fondos/Blue_Red.jpg");
+  background-size: 100% 100%;
+  max-width: 1920px;
+  background-repeat: no-repeat;
+  margin: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+#videoppal{
+  height: auto;
+  margin-top: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  margin-bottom: auto;
+  margin-left: auto;
+  display: block;
+  
+}
+
+#video_introduccion{
+  display:block;
+  height: 423px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px #000000;
+  background: transparent;
+  
+}
+
+/*-----Botón de menú-----*/
+#bmenu{
+  display: block;
+  
+  height: 50px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  width: 200px;
+  background: #ffcc00;
+  padding: 8px 14px 10px;
+  border: 1px solid #edbe04;
+  cursor: pointer;
+  font-size: 1.6em;
+  font-family: pokefont, sans-serif;
+  color: #fff;
+  text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+  box-shadow: inset 0px 1px 0px #DFB45A, 0px 5px 0px 0px #CB8B00, 0px 0px 5px #DFB45A;
+  border-radius: 10px;
+}
+
+#bmenu:hover{
+   border-top-color: #eabb00;
+   background: #eabb00;
+   color: #e5e5e5;
+}
+
+#bmenu:active{
+   border-top-color: #dbb004;
+   background: #dbb004;
+}
+      /*-----//-----*/
+
+/*................................................*/

@@ -1,0 +1,49 @@
+div{
+ display: block;
+}
+
+boddy{
+  margin: 0px;
+}
+
+@font-face {
+   font-family: pokefont;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../res/fuentes/Pokemon-GB.ttf);
+}
+
+@font-face {
+   font-family: berlin;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../res/fuentes/berlin.ttf);
+}
+
+footer{
+    position: relative;
+    font-family: berlin;
+    font-size: 0.7em;
+    color: white;
+    height: 15px;
+    width: 355px;
+    margin-top: 930px;
+    margin-left: 1550px;
+    text-shadow: -2px -2px 1px #000;
+}
+
+#titulo{
+  height: 30%;
+  display: block;
+}
+
+#imagenTitulo{
+  height: 100%;
+  margin: auto;
+  margin-top: 20px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: block;
+}

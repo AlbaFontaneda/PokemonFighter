@@ -1,0 +1,157 @@
+Version 1.7:
+    Se han colocado los css por separado.
+
+Version 1.9:
+    Hemos implementado el js, y por ahora nos funciona el botón de menú dentro 
+    de la pantalla de inicio, que te lleva a la pantalla de menú.
+    
+Version 2.3:
+    Hemos puesto 4 fondos de escenarios de manera que aparezcan aleatoriamente.
+    Y ahora aparece la miniatura del primer pokemon que sacas.
+    
+Version 2.4:
+    Hemos hecho los contenedores dentro del escenario, pero todavía falta 
+    centrar bien las imágenes.
+    Bug1: Imágenes de Mr.mime ingame mal importadas (revisar nombres).
+    Bug2: Hay que ajustar los pokemons de forma que queden igual de anchos y 
+        el borde de la imagen quede dentro del contenedor.
+        
+Version 2.5:
+    Hemos arreglado todos los bugs que había con anterioridad.
+    Hemos creado la interfaz de cambiar pokemon.
+    Hemos implementado los pokemons del rival de forma aleatoria.
+    Bug1: Las imágenes de algunas miniaturas hay que retocarlas.
+    Bug2: Hay que poner fondo al cambiar pokemons, y cambiar el texto por una
+    imagen.
+    
+Version 2.6:
+    Cambio del equipo.
+    Bordes de escenario y cuadro de ataques.
+    Creacion de archivo css "clases" para guardar las clases globales.
+    Bug1: Excepcion si al cambiar un Pokemon escoges el mismo que esta en combate.
+    Bug2: Fondo de la miniatura.
+    Bug3: Centrar botones.
+    
+Version 2.7:
+    Implementacion de combate sin ganador ni animaciones.
+    Maquina cambia de pokemon cuando se debilita.
+    Bug1: Si tienes el mismo Pokemon que la maquina y le debilitamos nuestro Pokemon
+        queda debilitado tambien.
+        
+Version 2.8:
+    NO ME ACUERDO QUE COÑO HICIMOS BRBRBRBRBRBBRBRBR <-- GG wp, Alba
+    Arreglado bug anterior, la maquina no puede tener tus mismos Pokemon.
+    Bug1: Hay que regular el daño en el combate.
+    Bug2: Video del inicio, se queda en play aunque pasemos de pantalla.
+
+Version 2.9:
+    Lienzo de las vidas.
+    Quitamos fondo super chulo de la miniatura, pero como a Javi no le gustaba...
+    Pusimos fondo al video del inicio y nos le descargamos para arreglar el ultimo bug
+        de la version anterior.
+    Bug: Regular daño de combate
+
+Version 3.0:
+    Implementacion canvas para las vidas.
+    (Hay que cambiar un poco la estetica ya que no me convence del todo)
+    Bug: Regular daño de combate
+
+Version 3.1
+    Canvas para el numero de la vida.
+    Bug: Regular daño de combate
+    
+Version 3.2:
+    Se ha arreglado el bug de daño, ya tenemos el mismo daño que la máquina.
+    La barra de vida va disminuyendo conforme te van haciendo daño.
+    El valor de la vida (debajo de la barra) tambien se modifica.
+    Si cambiamos de Pokemon, o la maquina cambia de Pokemon la barra de vida
+        se queda con el valor de la vida del Pokemon.
+    Bug1: Regular decrecimiento de la barra ya que si un Pokemon tiene mucha vida
+        esta no baja.
+    Bug2: Cambiar texto de las vidas ya que se ve mal en algunos escenarios.
+
+Version 3.3:
+    Poner animaciones a los ataques de cada Pokemon.
+    ¡BUGS!->ARREGLARLOS YA QUE SE NOS JUNTAN TODOS!
+    Bug1: Hay problemas con las barras de vida de tu equipo, si das a cambiar 
+        esta se rellena entera y segun te hacen un ataque se vacia entera.
+    Bug3: Dejar tiempo entre la animacicon tuya y la de la maquina.
+    Bug4: Poner textos en vez de alert().
+    Bug5: Cambiar texto vidas ya que se ve mal en algunos escenarios.
+    Bug6: Velocidad
+    Bug7: Quitar los console.log()
+    
+Version 3.4
+    Ya se han implementado todas las animaciones del combate.
+    Ya no se repite la máquina tus pokemons.
+    Ya hay tiempo de animación entre hacer un ataque y lo que venga.
+    Bug1: Hay que implementar las velocidades.
+    Bug2: Hay problemas con las barras de vida de tu equipo, si das a cambiar 
+        esta se rellena entera y segun te hacen un ataque se vacia entera.
+    Bug3: Cambiar texto vidas ya que se ve mal en algunos escenarios.
+    Bug4: Quitar los console.log().
+    Bug5: Poner textos en vez de alert().
+    Bug6: Regular entrada de la primera musica, ya que empieza tarde.
+    Bug7: Poner texto cuando un Pokemon se debilita.
+    
+Version 3.5
+    Ya se reproduce el combate con normalidad, cambiando de pokemon y todo.
+    Bug1: Hay que implementar las velocidades.
+    Bug2: Hay problemas con las barras de vida de tu equipo, si das a cambiar 
+        esta se rellena entera y segun te hacen un ataque se vacia entera.
+    Bug4: Quitar los console.log().
+    Bug5: Poner textos en vez de alert().
+    Bug6: Regular entrada de la primera musica, ya que empieza tarde.
+    Bug7: Poner texto cuando un Pokemon se debilita.
+    
+Version 3.6:
+    Pelea por turnos hecha, sin ningun bug que hayamos encontrado hasta el momento,
+        las velocidades han sido implementadas, y los cambios de Pokemon si se debilitan
+        se producen bien.
+    Bug1: Barras de vida.
+    Bug2: Texto si se debilita Pokemon.
+    Bug3: Quitar los console.log().
+    Bug4: Poner textos en vez de alert().
+    Bug5: Regular entrada primera musica y poner mas musicas en el combate.
+    Bug6: Si cambiamos a un Pokemon que no salga el alert, que salga un texto abajo.
+    
+Version 3.7:
+    Barra de vida arreglada, el texto si se debilita el Pokemon.
+    Hemos implementado la funcion del ganador tambien.
+    Bug1: No se contempla la funcion winer si la maquina es mas rapida.
+    Bug2: Quitar los console.log().
+    Bug3: Poner textos en vez de alert().
+    Bug4: Regular entrada primera musica y poner mas musicas en el combate.
+    Bug5: Si cambiamos a un Pokemon que no salga el alert, que salga un texto abajo.
+    Falta boton para volver a inicio y el loser.
+    
+Version 3.8:
+    Loser implementado.
+    Hemos quitado las alerts y las hemos metido en texto.
+    Bug1 anterior arreglado.
+    Bug4: Regular entrada primera musica y poner mas musicas en el combate.
+    Bug5: Si cambiamos a un Pokemon que no salga el alert, que salga un texto abajo.
+    Falta boton para volver a inicio.
+    
+Version 3.9:
+    Hemos quitado absolutamente todas las alertas, y hemos mejorado la pantalla
+    de seleccion.
+¡Nuevo!
+    Bug1: Cuando somos más rápidos podemos darle al cuadro de diálogo y se
+    mezclan las animaciones de los ataques, sin esperar a que termine tu animación.
+    
+    Bug2: Regular entrada primera musica y poner mas musicas en el combate.
+    Bug3: Si cambiamos a un Pokemon que no salga el alert, que salga un texto abajo.
+    Falta boton para volver a inicio.
+    
+Version 4.0:
+    Implementacion Pokeballs pantalla de seleccion.
+    Centrado de texto.
+    Arreglados la musica y los videos de loser y winer.
+    Implementacion boton de recargar la pagina.
+    Sonido a los ataques de los pokemon puestos.
+    
+    Bug1: Cambiar sonidos de los Pokemon.
+    Bug2: Cambiar boton volver a inicio.
+    Bug3: Cuando somos más rápidos podemos darle al cuadro de diálogo y se
+    mezclan las animaciones de los ataques, sin esperar a que termine tu animación.

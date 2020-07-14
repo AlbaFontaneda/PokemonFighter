@@ -1,0 +1,595 @@
+/*....................SELECCIÓN.....................*/
+#seleccion{
+  
+  display: none;
+  position: absolute;
+  width: 1920px;
+  height: 955px;
+  background-image: url("../img/fondos/Blue_Red.jpg");
+  background-size: 100% 100%;
+  max-width: 1920px;
+  background-repeat: no-repeat;
+  margin: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+/*---LOGO SUP.IZQ---*/
+#logo{
+  display: block;
+  height: 150px;
+  margin-top: 12px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+}
+
+/*---IMAGEN DEL ENCABEZADO---*/
+#eleccion{
+    display: block;
+    height: 130px;
+    margin-top: -22px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 548px;
+}
+
+/*-----Botón de Listo-----*/
+#blisto{
+  display: block;
+  height: 50px;
+  margin-top: 19px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: 1392px;
+  width: 180px;
+  background: #ffcc00;
+  padding: 8px 14px 10px;
+  border: 1px solid #edbe04;
+  cursor: pointer;
+  font-size: 1.6em;
+  font-family: pokefont;
+  color: #fff;
+  text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+  box-shadow: inset 0px 1px 0px #DFB45A, 0px 5px 0px 0px #CB8B00, 0px 0px 5px #DFB45A;
+  border-radius: 10px;
+}
+
+#blisto:hover{
+   border-top-color: #eabb00;
+   background: #eabb00;
+   color: #e5e5e5;
+}
+
+#blisto:active{
+   border-top-color: #dbb004;
+   background: #dbb004;
+}
+      /*-----//-----*/
+      
+#pokeballs{
+    display: block;
+    position: relative;
+    margin-top: -65px;
+    margin-left: 800px;
+    height: 60px;
+    width: 350px;
+}
+
+#nombrepok1{
+    display: none;
+    font-size: 0.6em;
+    font-family: pokefont;
+    color: #fff;
+    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
+}
+
+#nombrepok2{
+    display: none;
+    font-size: 0.6em;
+    font-family: pokefont;
+    color: #fff;
+    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
+}
+
+#nombrepok3{
+    display: none;
+    font-size: 0.6em;
+    font-family: pokefont;
+    color: #fff;
+    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
+}
+
+/*---DIV TABLA---*/
+#contenedor_pokemon {
+  display: block;
+  height: 60%;
+  margin-top: 40px;
+  margin-right: 10%;
+  margin-bottom: inherit;
+  margin-left: 19%;
+  width: auto;
+}
+
+/*-----Botón Acero-----*/
+#acero{
+  background: #cccccc;
+  background-image: url("../img/acero/aggron_icon.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  text-indent: 25px;
+}
+
+#acero:hover{
+   background: #a6a6a6;
+   background-image: url("../img/acero/aggron_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#acero:active{
+   background: #999999;
+   background-image: url("../img/acero/aggron_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Agua-----*/
+#agua{
+  background: #4db8ff;
+  background-image: url("../img/agua/blastoise_icon.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  text-indent: 40px;
+}
+
+#agua:hover{
+   background: #1aa3ff;
+   background-image: url("../img/agua/blastoise_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#agua:active{
+   background: #0099ff;
+   background-image: url("../img/agua/blastoise_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Bicho-----*/
+#bicho{
+  background: #66cc00;
+  background-image: url("../img/bicho/combee_icon.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  text-indent: 25px;
+}
+
+#bicho:hover{
+   background: #59b300;
+   background-image: url("../img/bicho/combee_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#bicho:active{
+   background: #4d9900;
+   background-image: url("../img/bicho/combee_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Dragón-----*/
+#dragon{
+  background: #cc66ff;
+  background-image: url("../img/dragon/salamence_icon.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  text-indent: 40px;
+}
+
+#dragon:hover{
+   background: #bb33ff;
+   background-image: url("../img/dragon/salamence_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#dragon:active{
+   background: #b31aff;
+   background-image: url("../img/dragon/salamence_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Eléctrico-----*/
+#electrico{
+  background: #ffff33;
+  background-image: url("../img/electrico/pikachu_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+
+#electrico:hover{
+   background: #ffff00;
+   background-image: url("../img/electrico/pikachu_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#electrico:active{
+   background: #e6e600;
+   background-image: url("../img/electrico/pikachu_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Fantasma-----*/
+#fantasma{
+  background: #8c1aff;
+  background-image: url("../img/fantasma/gengar_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  text-indent: 30px;
+}
+
+#fantasma:hover{
+   background: #7300e6;
+   background-image: url("../img/fantasma/gengar_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#fantasma:active{
+   background: #6600cc;
+   background-image: url("../img/fantasma/gengar_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Fuego-----*/
+#fuego{
+  background: #ff751a;
+  background-image: url("../img/fuego/charizard_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+
+#fuego:hover{
+   background: #e65c00;
+   background-image: url("../img/fuego/charizard_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#fuego:active{
+   background: #cc5200;
+   background-image: url("../img/fuego/charizard_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Hada-----*/
+#hada{
+  background: #ff99cc;
+  background-image: url("../img/hada/jigglypuff_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  text-indent: 40px;
+}
+
+#hada:hover{
+   background: #ff66b3;
+   background-image: url("../img/hada/jigglypuff_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#hada:active{
+   background: #ff4da6;
+   background-image: url("../img/hada/jigglypuff_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Hielo-----*/
+#hielo{
+  background: #80dfff;
+  background-image: url("../img/hielo/glaceon_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+
+#hielo:hover{
+   background: #4dd2ff;
+   background-image: url("../img/hielo/glaceon_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#hielo:active{
+   background: #33ccff;
+   background-image: url("../img/hielo/glaceon_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Lucha-----*/
+#lucha{
+  background: #d2a679;
+  background-image: url("../img/lucha/hitmontop_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+
+#lucha:hover{
+   background: #c68c53;
+   background-image: url("../img/lucha/hitmontop_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#lucha:active{
+   background: #bf8040;
+   background-image: url("../img/lucha/hitmontop_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Normal-----*/
+#normal{
+  background: #ffd9b3;
+  background-image: url("../img/normal/lickitung_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+
+#normal:hover{
+   background: #ffbf80;
+   background-image: url("../img/normal/lickitung_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#normal:active{
+   background: #ffb366;
+   background-image: url("../img/normal/lickitung_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Planta-----*/
+#planta{
+  background: #00cc44;
+  background-image: url("../img/planta/bulbasaur_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  text-indent: 40px;
+}
+
+#planta:hover{
+   background: #009933;
+   background-image: url("../img/planta/bulbasaur_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#planta:active{
+   background: #00802b;
+   background-image: url("../img/planta/bulbasaur_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Psíquico-----*/
+#psiquico{
+  background: #ff33ff;
+  background-image: url("../img/psiquico/mr_mime_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+ 
+#psiquico:hover{
+   background: #ff00ff;
+   background-image: url("../img/psiquico/mr_mime_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#psiquico:active{
+   background: #e600e6;
+   background-image: url("../img/psiquico/mr_mime_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Roca-----*/
+#roca{
+  background: #804000;
+  background-image: url("../img/roca/aerodactyl_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  text-indent: 50px;
+}
+
+#roca:hover{
+   background: #663300;
+   background-image: url("../img/roca/aerodactyl_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#roca:active{
+   background: #4d2600;
+   background-image: url("../img/roca/aerodactyl_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Siniestro-----*/
+#siniestro{
+  background: #001a33;
+  background-image: url("../img/siniestro/zoroark_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+
+#siniestro:hover{
+   background: #000d1a;
+   background-image: url("../img/siniestro/zoroark_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#siniestro:active{
+   background: #000000;
+   background-image: url("../img/siniestro/zoroark_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Tierra-----*/
+#tierra{
+  background: #cc9966;
+  background-image: url("../img/tierra/garchomp_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+
+#tierra:hover{
+   background: #c18e57;
+   background-image: url("../img/tierra/garchomp_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#tierra:active{
+   background: #ba8145;
+   background-image: url("../img/tierra/garchomp_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Veneno-----*/
+#veneno{
+  background: #cc66ff;
+  background-image: url("../img/veneno/amoonguss_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  cursor: pointer;
+}
+
+#veneno:hover{
+   background: #bb33ff;
+   background-image: url("../img/veneno/amoonguss_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#veneno:active{
+   background: #b31aff;
+   background-image: url("../img/veneno/amoonguss_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+
+/*-----Botón Volador-----*/
+#volador{
+  background: #b3d9ff;
+  background-image: url("../img/volador/pidgeot_icon.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  text-indent: 45px;
+}
+
+#volador:hover{
+   background: #80bfff;
+   background-image: url("../img/volador/pidgeot_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+   color: #f2f2f2;
+   -webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+#volador:active{
+   background: #66b3ff;
+   background-image: url("../img/volador/pidgeot_icon.png");
+   background-repeat: no-repeat;
+   background-size: 55px;
+}
+      /*-----//-----*/
+      
+#errores_de_seleccion{
+    display: none;
+    height: 50px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: -55px;
+    background: #ffbb99;
+    border: 5px double black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#texto_error{
+    font-size: 0.9em;
+    font-family: pokefont;
+    color: #fff;
+    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
+    float: center;
+    margin-left: 100px;
+}
+/*................................................*/

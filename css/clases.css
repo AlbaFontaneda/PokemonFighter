@@ -1,0 +1,98 @@
+
+/*-------SELECCION--------*/
+.pokemon{
+  display: block;
+  height: 65px;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  width: 230px;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: pokefont, sans-serif;
+  text-align: center;
+  color: #fff;
+  text-indent: 35px;
+  text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+}
+
+.pokeball{
+  display: block;
+  height: 60px;
+}
+
+/*------------------------*/
+
+/*------COMBATE---------*/
+.contenedor_escenario{ /*--También esta dentro el equipo--*/
+  position: absolute;
+  width: 1100px;
+  height: 650px;
+  margin-left: 209px;
+  background: white;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  top: 55px;
+  right: 0px;
+  bottom: 0px;
+  left: 435px;
+}
+
+.pokemongif{
+  width: auto;
+  height: 350px;
+}
+
+/*--BOTONES ATQ-CAMB--*/
+.bdefecto{
+  height: 80px;
+  margin-top: 52px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: 100px;
+  width: 180px;
+  background: #fff;
+  padding: 8px 14px 10px;
+  border: 1px solid red;
+  cursor: pointer;
+  font-size: 1.6em;
+  font-family: pokefont, sans-serif;
+  color: black;
+  text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+  box-shadow: inset 0px 1px 0px red, 0px 5px 0px 0px red, 0px 0px 5px red;
+  border-radius: 30px;
+}
+
+.bdefecto:hover{
+  border-top-color: red;
+  background: #D8D8D8;
+}
+
+.bdefecto:active{
+  border-top-color: red;
+   background: #BDBDBD;
+}
+
+/*-------------------------*/
+
+.flechas{
+  display: block;
+  height: 50px;
+  width: auto;
+  position: relative;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2.1em;
+}
+
+.flechas:hover{
+  background: transparent;
+  border: none;
+}
+
+table{
+  width:100%;
+}
